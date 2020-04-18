@@ -25,11 +25,23 @@
 
     <hr class="featurette-divider">
 
+    <div class="row justify-content-center">
+        <div class="container">
+        <div class="bg-light ">
+            <div id="twitch-embed-2"></div>
+        </div>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
     <div class="container">
         <div class="row justify-content-center">
         <div class="col d-flex justify-content-center">
         <img class="img-fluid mx-auto" src="{{asset("storage/images/twitch_iconography.png")}}" alt="Generic placeholder image"> 
         </div>
+
+        
         
         <div class="col d-flex justify-content-center">
             <div class="my-3 py-3">
@@ -50,6 +62,12 @@
         width: 854,
         height: 480,
         channel: "kazookd",
+      });
+
+      new Twitch.Embed("twitch-embed-1", {
+        width: 854,
+        height: 480,
+        channel: "nicnacpattywhack",
       });
 
     </script>

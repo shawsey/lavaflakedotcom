@@ -38,7 +38,7 @@
             <a class="nav-link" href="/stream">Streaming</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/wip">Scores</a>
+            <a class="nav-link" href="/scores">Scores</a>
           </li>
           
         </ul>
