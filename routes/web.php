@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('hub');
+});
+
+Route::get('/stream', function() {
+    return view('stream');
+});
+
+Route::get('/prompts', function() {
+    return view('stream');
+});
+
+Route::get('/scores', function() {
+    return view('scores');
+});
+
+Route::get('/wip', function() {
+    return view('wip');
 });
