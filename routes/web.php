@@ -25,10 +25,16 @@ Route::get('/prompts', function() {
     return view('stream');
 });
 
-Route::get('/scores', function() {
-    return view('scores');
-});
-
 Route::get('/wip', function() {
     return view('wip');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admin', 'AdminController@admin')->middleware('is_admin')->name('admin');
+Route::get('/admin/create', 'ScoresController@create')->middleware('is_admin')->name('admin');
+
+Route::post('/scores', 'ScoresController@store');
+Route::get('/scores', 'ScoresController@index');
