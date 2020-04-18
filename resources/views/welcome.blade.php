@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    The Lavaflake Wiki. Being developed Currently.
+                    Tier Tourney Hub coming soon. Tune in Later.
                 </div>
                 <div class="links">
                     <a href="https://dad.gallery">DAD.gallery</a>

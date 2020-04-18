@@ -1,15 +1,8 @@
 
 
-## About The Lavaflake Wiki
+## About the Tier Tourney Hub on Lavaflake.com
 
-The LFW is a pet project for creating a wiki-like site to document historical events and figures within the Last Artist Standing (Now Do Art Daily) Community.
-
-
-
-
-## Contributing
-
-Thank you for considering contributing to the this! Please reach out to me via Discord if you are interested in adding information or pages to the Wiki. 
+This was originally going to be a project of creating a DAD/LAS wiki, but I'm putting that on the side burner for a bit. Instead this will be a hub for information on the April Tier Tourney going on. Expect to see some updates over the next few days. 
 
 ## Security Vulnerabilities
 
