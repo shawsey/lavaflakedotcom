@@ -10882,3 +10882,15 @@ a.text-dark:focus {
   }
 }
 
+.fadein {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.fadein:hover
+{
+  opacity:1;
+}
+
+
+
+
