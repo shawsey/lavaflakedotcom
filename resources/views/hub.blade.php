@@ -44,37 +44,37 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette fadein">
           <div class="col-md-7">
             <h2 class="featurette-heading">Feeling the hype? <span class="text-muted">Share that excitement with fellow artists</span></h2>
             <p class="lead">Some of the participants of the Tier Tourney may be streaming themselves making their pieces. Join in the spirit of the Tourney and come watch! A portion of this Hub will be for you to keep tabs on all the Daddos who are streaming art.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/stream.jpg")}}">
+            <a href="/stream"><img class="featurette-image img-fluid mx-auto clickable" src="{{asset("storage/images/stream.jpg")}}"></a>
           </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette fadein">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">The devil is in the details. <span class="text-muted">Take a look at the prompts and plan your piece</span></h2>
             <p class="lead">It is important to make sure you know what you are doing at all times, and so I'll be creating a page to keep track of the full prompts, as well as the scoring scheme. </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/prompts.jpg")}}" alt="Generic placeholder image">
+            <a href="/wip"><img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/prompts.jpg")}}"></a>
           </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette fadein">
           <div class="col-md-7">
             <h2 class="featurette-heading"> Work hard through the weekend. <span class="text-muted">Get your scores during the week</span></h2>
-            <p class="lead">After each round the Pannel of four panelists will be grading pieces. Expect to be able to see your scores up later during the week. I'll be working on a page for this as well, fingers crossed.</p>
+            <p class="lead">After each round the Panel of four panelists will be grading pieces. Expect to be able to see your scores up later during the week. I'll be working on a page for this as well, fingers crossed.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/scores.jpg")}}" alt="Generic placeholder image">
+            <a href="/wip"><img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/scores.jpg")}}"></a>
           </div>
         </div>
 

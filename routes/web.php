@@ -29,6 +29,18 @@ Route::get('/wip', function() {
     return view('wip');
 });
 
+Route::get('/round/1', function() {
+    return view('r1');
+});
+
+Route::get('/round/2', function() {
+    return view('r2');
+});
+
+Route::get('/round/3', function() {
+    return view('r3');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
