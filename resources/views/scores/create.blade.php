@@ -93,39 +93,22 @@
 
         <div class="form-group">
             <label for="description">COMPOSITION AND DESIGN Score</label></br>
-            <label class="radio-inline"><input type="radio" name="CompositionDesign" value="1"> 0</label>
-            <label class="radio-inline"><input type="radio" name="CompositionDesign" value="1"> 1</label>
-            <label class="radio-inline"><input type="radio" name="CompositionDesign" value="2"> 2</label>
-            <label class="radio-inline"><input type="radio" name="CompositionDesign" value="3"> 3</label>
-            <label class="radio-inline"><input type="radio" name="CompositionDesign" value="4"> 4</label>
-            <label class="radio-inline"><input type="radio" name="CompositionDesign" value="5"> 5</label>
+            <input type="text" class="form-control" id="CompositionDesign"  name="CompositionDesign">
         </div>
 
         <div class="form-group">
             <label for="description">APPLICATION OF OTHER ARTISTIC FUNDAMENTALS Score</label></br>
-            <label class="radio-inline"><input type="radio" name="Fundamentals" value="1"> 0</label>
-            <label class="radio-inline"><input type="radio" name="Fundamentals" value="1"> 1</label>
-            <label class="radio-inline"><input type="radio" name="Fundamentals" value="2"> 2</label>
-            <label class="radio-inline"><input type="radio" name="Fundamentals" value="3"> 3</label>
-            <label class="radio-inline"><input type="radio" name="Fundamentals" value="4"> 4</label>
-            <label class="radio-inline"><input type="radio" name="Fundamentals" value="5"> 5</label>
+            <input type="text" class="form-control" id="Fundamentals"  name="Fundamentals">
         </div>
 
         <div class="form-group">
             <label for="description">CREATIVITY & ORIGINALITY Score</label></br>
-            <label class="radio-inline"><input type="radio" name="CreativityOriginality" value="1"> 0</label>
-            <label class="radio-inline"><input type="radio" name="CreativityOriginality" value="1"> 1</label>
-            <label class="radio-inline"><input type="radio" name="CreativityOriginality" value="2"> 2</label>
-            <label class="radio-inline"><input type="radio" name="CreativityOriginality" value="3"> 3</label>
-            <label class="radio-inline"><input type="radio" name="CreativityOriginality" value="4"> 4</label>
-            <label class="radio-inline"><input type="radio" name="CreativityOriginality" value="5"> 5</label>
+            <input type="text" class="form-control" id="CreativityOriginality"  name="CreativityOriginality">
         </div>
 
         <div class="form-group">
             <label for="description"> MATERIALS AND MEDIA Score</label></br>
-            <label class="radio-inline"><input type="radio" name="MaterialsMedia" value="1"> 0</label>
-            <label class="radio-inline"><input type="radio" name="MaterialsMedia" value="1"> 1</label>
-            <label class="radio-inline"><input type="radio" name="MaterialsMedia" value="2"> 2</label>
+            <input type="text" class="form-control" id="MaterialsMedia"  name="MaterialsMedia">
         </div>
 
         <div class="form-group">

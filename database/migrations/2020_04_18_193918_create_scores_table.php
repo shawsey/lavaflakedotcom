@@ -19,11 +19,11 @@ class CreateScoresTable extends Migration
             $table->string('Name');
             $table->longText('Description');
             $table->integer('Round');
-            $table->integer('CompositionDesign');
-            $table->integer('Fundamentals');
-            $table->integer('CreativityOriginality');
-            $table->integer('MaterialsMedia');
-            $table->integer('CombinedAverageScore');
+            $table->float('CompositionDesign');
+            $table->float('Fundamentals');
+            $table->float('CreativityOriginality');
+            $table->float('MaterialsMedia');
+            $table->float('CombinedAverageScore');
             $table->timestamps();
         });
     }
