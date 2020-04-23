@@ -5,6 +5,9 @@
         <div class="alert alert-info">{{ Session::get('message') }}</div>
     @endif
 
+    <link href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
 
     <div class="container">
     <br>
@@ -32,15 +35,15 @@
     <table class="table">
         <thead class="thead-light">
         <tr>
-            <th scope="col">#</th>
-            <th scope="col">Artist</th>
-            <th scope="col">Piece Name</th>
-            <th scope="col">Round #</th>
-            <th scope="col">Composition/Design Score</th>
-            <th scope="col">Other Fundamentals Score</th>
-            <th scope="col">Creativity/Originality Score</th>
-            <th scope="col">Materials/Media Score</th>
-            <th scope="col">Combined Round Score</th>
+            <th scope="col">@sortablelink('id', '#')</th>
+            <th scope="col">@sortablelink('Artist', 'Artist')</th>
+            <th scope="col">@sortablelink('Name', 'Piece Name')</th>
+            <th scope="col">@sortablelink('Round', 'Round')</th>
+            <th scope="col">@sortablelink('CompositionDesign', 'Composition/Design Score')</th>
+            <th scope="col">@sortablelink('Fundamentals', 'Other Fundamentals Score')</th>
+            <th scope="col">@sortablelink('CreativityOriginality', 'Creativity/Originality Score')</th>
+            <th scope="col">@sortablelink('MaterialsMedia', 'Materials/Media Score')</th>
+            <th scope="col">@sortablelink('CombinedAverageScore', 'Combined Round Score')</th>
         </tr>
         </thead>
         <tbody>
@@ -59,4 +62,12 @@
         @endforeach
         </tbody>
     </table>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+
 @endsection

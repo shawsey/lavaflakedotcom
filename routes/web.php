@@ -22,7 +22,7 @@ Route::get('/stream', function() {
 });
 
 Route::get('/prompts', function() {
-    return view('stream');
+    return view('prompts');
 });
 
 Route::get('/wip', function() {
@@ -39,6 +39,14 @@ Route::get('/round/2', function() {
 
 Route::get('/round/3', function() {
     return view('r3');
+});
+
+Route::get('/prompt/1', function() {
+    return view('p1');
+});
+
+Route::get('/prompt/2', function() {
+    return view('p2');
 });
 
 Auth::routes();
