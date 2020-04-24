@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/wip">Prompts</a>
+            <a class="nav-link" href="/prompts">Prompts</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/stream">Streaming</a>

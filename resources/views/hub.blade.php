@@ -15,25 +15,24 @@
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <div class="container marketing">
+      
 
         <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="{{asset("storage/images/onceuponatime.png")}}" alt="Generic placeholder image" width="140" height="140">
+        <div class="row no-gutters">
+          <div class="col-xl-4">
+          <a href="/prompt/1"><img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/round1img.png")}}"></a>
             <h2>Once Upon a Time</h2>
             <p>You are to create a piece of work based around a fairytale.</p>
-            <p><a class="btn btn-secondary" href="/wip" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="/prompt/1" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="{{asset("storage/images/round2redacted.png")}}" alt="Generic placeholder image" width="140" height="140">
-            <h2>[REDACTED]</h2>
-            <p>[redacted].</p>
-            <p><a class="btn btn-secondary" href="/wip" role="button">View details &raquo;</a></p>
+          <div class="col-xl-4">
+          <a href="/prompt/2"><img class="featurette-image img-fluid mx-auto clickable" src="{{asset("storage/images/round2img.png")}}"></a>
+            <h2>Sculpture: Become Human</h2>
+            <p>All sculptures in the world have come alive and now walk the same streets as us!</p>
+            <p><a class="btn btn-secondary" href="/prompt/2" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="{{asset("storage/images/round3redacted.png")}}" alt="Generic placeholder image" width="140" height="140">
-            <h2>[REDACTED]</h2>
+          <div class="col-xl-4">
+            <a href="/prompt/3"><img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/round3img.png")}}"></a><h2>[REDACTED]</h2>
             <p>[redacted].</p>
             <p><a class="btn btn-secondary" href="/wip" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
@@ -78,10 +77,10 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+     
 
         <!-- /END THE FEATURETTES -->
 
-      </div><!-- /.container -->
+      <!-- /.container -->
 
 @endsection
