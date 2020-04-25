@@ -46,12 +46,24 @@
     
     <hr class="featurette-divider">
 
+    <div class="row justify-content-center">
+        <div class="container">
+        <div class="bg-light ">
+            <div id="twitch-embed-4"></div>
+        </div>
+        </div>
+    </div>
+
+    
+    <hr class="featurette-divider">
+
 
     <div class="container">
         <div class="row justify-content-center">
         <div class="col d-flex justify-content-center">
         <img class="img-fluid mx-auto" src="{{asset("storage/images/twitch_iconography.png")}}" alt="Generic placeholder image"> 
         </div>
+
 
         
         
@@ -86,6 +98,12 @@
         width: 854,
         height: 480,
         channel: "motharts",
+      });
+
+      new Twitch.Embed("twitch-embed-4", {
+        width: 854,
+        height: 480,
+        channel: "maleys51",
       });
 
     </script>
