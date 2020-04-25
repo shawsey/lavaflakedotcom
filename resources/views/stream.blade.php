@@ -35,6 +35,18 @@
 
     <hr class="featurette-divider">
 
+    <div class="row justify-content-center">
+        <div class="container">
+        <div class="bg-light ">
+            <div id="twitch-embed-3"></div>
+        </div>
+        </div>
+    </div>
+
+    
+    <hr class="featurette-divider">
+
+
     <div class="container">
         <div class="row justify-content-center">
         <div class="col d-flex justify-content-center">
@@ -64,10 +76,16 @@
         channel: "kazookd",
       });
 
-      new Twitch.Embed("twitch-embed-1", {
+      new Twitch.Embed("twitch-embed-2", {
         width: 854,
         height: 480,
         channel: "nicnacpattywhack",
+      });
+
+      new Twitch.Embed("twitch-embed-3", {
+        width: 854,
+        height: 480,
+        channel: "motharts",
       });
 
     </script>
