@@ -32,9 +32,9 @@
             <p><a class="btn btn-secondary" href="/prompt/2" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-xl-4">
-            <a href="/prompt/3"><img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/round3img.png")}}"></a><h2>[REDACTED]</h2>
-            <p>[redacted].</p>
-            <p><a class="btn btn-secondary" href="/wip" role="button">View details &raquo;</a></p>
+            <a href="/prompt/3"><img class="featurette-image img-fluid mx-auto" src="{{asset("storage/images/round3img.png")}}"></a><h2>The DAD Zone</h2>
+            <p>You've heard its name before, but now you are going to help imagine it.</p>
+            <p><a class="btn btn-secondary" href="/prompt/3" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 

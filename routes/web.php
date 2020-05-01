@@ -49,6 +49,10 @@ Route::get('/prompt/2', function() {
     return view('p2');
 });
 
+Route::get('/prompt/3', function() {
+    return view('p3');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

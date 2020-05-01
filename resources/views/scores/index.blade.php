@@ -25,7 +25,7 @@
             <p><a class="btn btn-secondary" href="/round/1" role="button">Round 1 Comments &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-              <p><a class="btn btn-secondary" href="/wip" role="button">Round 2 Comments &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="/round/2" role="button">Round 2 Comments &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <p><a class="btn btn-secondary" href="/wip" role="button">Round 3 Comments &raquo;</a></p>
