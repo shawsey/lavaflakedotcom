@@ -28,7 +28,7 @@
         <blockquote>
         <p><em>You've heard its name before, but now you are going to help imagine it.</em> Create a piece based what the DAD Zone would be. A planet? City? Village, maybe.</p>
         <p>Who lives in the DAD Zone? What do they do? What kinds of buildings are in the DAD Zone? Are there unique aspects of the DAD Zone that we should know?</P>
-        <p>What are the politics of the DAD Zone, are we admidst a civil war? Are we overthrowing a lemur dictator? Or is the war against bordering crabs raging onward?</p>
+        <p>What are the politics of the DAD Zone, are we amidst a civil war? Are we overthrowing a lemur dictator? Or is the war against bordering crabs raging onward?</p>
         <p>Draw specific objects, places, people, or things that tie into your personal imagination when you hear the words <b> DAD ZONE. </b></p>
         </blockquote>
         <strong>Resources:</strong>
