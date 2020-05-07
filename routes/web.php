@@ -21,37 +21,48 @@ Route::get('/stream', function() {
     return view('stream');
 });
 
-Route::get('/prompts', function() {
-    return view('prompts');
+Route::get('/tourneyhub', function() {
+    return view('tourney');
 });
 
 Route::get('/wip', function() {
     return view('wip');
 });
 
-Route::get('/round/1', function() {
-    return view('r1');
+/* APRIL TOURNEY ROUTES */
+
+Route::get('/april/hub', function() {
+    return view('/apriltourney/hub');
 });
 
-Route::get('/round/2', function() {
-    return view('r2');
+Route::get('/april/prompts', function() {
+    return view('/apriltourney/prompts');
 });
 
-Route::get('/round/3', function() {
-    return view('r3');
+Route::get('/april/round/1', function() {
+    return view('/apriltourney/r1');
 });
 
-Route::get('/prompt/1', function() {
-    return view('p1');
+Route::get('/april/round/2', function() {
+    return view('/apriltourney/r2');
 });
 
-Route::get('/prompt/2', function() {
-    return view('p2');
+Route::get('/april/round/3', function() {
+    return view('/apriltourney/r3');
 });
 
-Route::get('/prompt/3', function() {
-    return view('p3');
+Route::get('/april/prompt/1', function() {
+    return view('/apriltourney/p1');
 });
+
+Route::get('/april/prompt/2', function() {
+    return view('/apriltourney/p2');
+});
+
+Route::get('/april/prompt/3', function() {
+    return view('/apriltourney/p3');
+});
+
 
 Auth::routes();
 

@@ -21,24 +21,30 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark inline">
-      <a class="navbar-brand" href="/"><svg class="bi bi-house" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <!-- <a class="navbar-brand" href="/"><svg class="bi bi-house" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 00.5.5h9a.5.5 0 00.5-.5V7h1v6.5a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 012 13.5zm11-11V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
   <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 011.414 0l6.647 6.646a.5.5 0 01-.708.708L8 2.207 1.354 8.854a.5.5 0 11-.708-.708L7.293 1.5z" clip-rule="evenodd"/>
 </svg></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      -->
+      <a class="navbar-brand" href="/">
+        <img src="{{asset("storage/images/navlogo.png")}}" alt="Lavaflake" style="width:150px;">
+      </a>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/prompts">Prompts</a>
+            <a class="nav-link" href="/stream">Streams</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/stream">Streaming</a>
+            <a class="nav-link" href="/tourneyhub">Tourney</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/scores">Scores</a>
+            <a class="nav-link" href="/wip">Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/wip">Resources</a>
           </li>
           
         </ul>
