@@ -1,8 +1,7 @@
 
 
-## About the Tier Tourney Hub on Lavaflake.com
-
-This was originally going to be a project of creating a DAD/LAS wiki, but I'm putting that on the side burner for a bit. Instead this will be a hub for information on the April Tier Tourney going on. Expect to see some updates over the next few days. 
+## LavaflakeDOTCOM
+Welcome! Lavaflake is a website oriented towards helping out artists. Whether finding references, getting a daily topic to draw, or to participate in one of the DAD Tourneys, we've got you covered.
 
 ## Security Vulnerabilities
 
