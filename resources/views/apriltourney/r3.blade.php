@@ -22,7 +22,7 @@
         <h2 class="blog-post-title">Judge Scores and Comments</h2>
         <strong>Panelist: Choob </strong>
         <blockquote>
-        <p><em>WIP</em></p>
+        <a href="https://docs.google.com/spreadsheets/d/1Ql-6EGB08CSQ4wYFm4Bcgs51QRoLeN9wHiOwJVkzqmg/edit?usp=sharing"><p><em>Google Spreadsheet Link</em> </p></a>
         </blockquote>
 
         <hr>
